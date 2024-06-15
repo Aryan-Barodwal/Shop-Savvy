@@ -1,0 +1,40 @@
+.local {
+    z-index: -40;
+}
+
+#name {
+    z-index: -20;
+}
+
+.custom-dot-list-style li button {
+    position: relative;
+    top:-6px;
+    /* background-color: black; */
+    border: 2px solid black;
+  
+    cursor: pointer;
+    width: 13px;
+    height: 13px;
+    margin: 5px;
+    padding: 0;
+}
+.custom-dot-list-style li button::before,
+.custom-dot-list-style li button::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+}
+
+.custom-dot-list-style::before {
+    content: url('../assets/arrow-left-s-fill.png');
+    cursor: pointer;
+
+}
+
+.custom-dot-list-style::after {
+    content: url('../assets/arrow-right-s-fill.png');
+    cursor: pointer;
+
+}

@@ -1,0 +1,25 @@
+.style-script-regular {
+    font-family: "Style Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+.newstore::-webkit-scrollbar {
+    display: none;
+}
+
+.newstore::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 6px;
+}
+
+.newstore::-webkit-scrollbar-track {
+    background-color: #ffffff;
+
+}
+
